@@ -1,0 +1,117 @@
+/*
+Layout
+    display
+Spacing
+    margin, padding
+Size
+    width, height, min, max
+    ratio, overflow, fit
+Position
+    position, float, clear
+Typography
+    font, weight, size, color, align,
+    style, letter spacing, indent
+    capitalize, direction
+    breaking word or line, wrap
+    stroke, text shadows
+Background
+    image, gradient, color, clip
+Border
+    radius, style, width, color
+*/
+
+/* Layout */
+/* Spacing */
+/* Size */
+/* Position */
+/* Typography */
+/* Background */
+/* Border */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+p {
+    color: black;
+}
+
+a {
+    color: black;
+}
+.container {
+    /* Layout */
+    margin: 0 5vw;
+    /* Size */
+    max-width: 1100px;
+    /* Position */
+    /* Typography */
+    /* Background */
+    /* Border */
+    /* outline: 1px solid salmon; */
+    /* Spacing */
+}
+
+.main-header_flex-layout {
+    /* Layout */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Size */
+    /* Position */
+    /* Typography */
+    /* Background */
+    /* Border */
+    /* outline: 1px solid salmon; */
+    /* Spacing */
+}
+
+
+
+.main-header {
+    /* Layout */
+    /* Spacing */
+    padding-top: 12px;
+    /* Size */
+    width: 100%;
+    height: 40px;
+    /* Position */
+    position: fixed;
+    top: 0;
+    /* position: fixed; */
+    /* Typography */
+    /* Background */
+    background-color: wheat;
+    /* Border */
+    /* outline: 2px solid red; */
+}
+
+.hero-section {
+    /* Layout */
+    /* Spacing */
+    margin-top: 40px;
+    padding-top: 15px;
+    /* Size */
+    width: 100%;
+    height: 800px;
+    /* Position */
+    /* Typography */
+    /* Background */
+    background-color: rgb(201, 191, 173);
+
+    /* Border */
+}
+
+.main-header__list-items {
+    list-style: none;
+}
+.main-header__item a {
+    margin: 0 1rem;
+
+    text-decoration: none;
+}
