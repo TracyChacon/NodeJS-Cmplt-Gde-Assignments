@@ -1,0 +1,20 @@
+{
+  "name": "assignment-04",
+  "version": "1.0.0",
+  "description": "my templating engine assignment solution. Create npm project with express, nodemon, and ejs template engine. Add two routes, a '/' route that holds a form, and a '/users' route that outputs an unordered ist of the user names.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "tracy chacon",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

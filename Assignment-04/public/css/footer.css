@@ -1,0 +1,18 @@
+.footer {
+    
+    /* Layout */
+    /* Spacing */
+    padding: 20px;
+    /* Size */
+    height: 15vh;
+    width: 100%;
+    /* Position */
+    position: fixed;
+    bottom: 0;
+    /* Typography */
+    color: #fff;
+    text-align: center;
+    /* Background */
+    background: #333;
+    /* Border */
+}

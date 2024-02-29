@@ -1,0 +1,16 @@
+<%- include('includes/head.ejs') %>
+<%- include('includes/navigation.ejs') %>
+<main>
+    <section class="names-section">
+        <% if(names.length > 0) { %>
+            <ul class="names-section__list">
+            <% for (let name of names) { %>
+                <li class="names-section__list-item">
+                    <%= name.userName %>
+                </li>
+            <% } %>
+            </ul>
+        <% } %>
+    </section>
+</main>
+<%- include('includes/end.ejs') %>

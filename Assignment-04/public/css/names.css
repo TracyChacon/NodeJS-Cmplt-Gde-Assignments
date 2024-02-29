@@ -1,0 +1,28 @@
+.names-section {
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 15vh;
+}
+
+.names-section__list {
+    width: 15vw;
+
+    list-style: none;
+    text-align: center;
+    overflow: hidden;
+
+    border: 3px solid  #00695c;
+    border-radius: 20px;
+}
+
+
+.names-section__list-item:nth-child(even) {
+    color: white;
+    background-color: #00695c;
+}
+
+.names-section__list-item:nth-child(odd) {
+    color: #00695c;
+    background-color: #72e4d6;
+}
