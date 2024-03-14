@@ -1,0 +1,24 @@
+{
+  "name": "nodejs_complete_guide_academind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -e ejs,js,css,mjs,cjs app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "connect-mongodb-session": "^2.2.0",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.3",
+    "express-session": "^1.18.0",
+    "mongoose": "^8.2.1"
+  }
+}
