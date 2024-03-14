@@ -1,6 +1,7 @@
 # Assignment 5
 
 1. Store the user in the session but only after the user logs in 
+    
     pass post request data from/to  
     - > views/auth/login.ejs 
     - > routes/auth.js
